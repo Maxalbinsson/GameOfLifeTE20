@@ -1,7 +1,7 @@
 package Model;
 import View.*;
 
-public class Model {
+public class Model<cell> {
     public Model(int width, int height) {
 
     }
@@ -10,7 +10,7 @@ public class Model {
     }
 
     public Shape[] getShapes() {
-        Point[] points = {new Point(5,5)};
+        Point[] points = {new Point(18,20),new Point(19,20),new Point(20,20)};
         return (Shape[])points;
     }
 }
